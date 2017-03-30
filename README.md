@@ -20,7 +20,7 @@ git reset --hard 292a51b8d262487dab23a588950e8052d63d9113
 3. Copied the `inotify` directory and licensing info into a new git repo
 
 This was not our favorite way to fork `inotify` but we didn't have many other
-choices. `We chose to fork this perfectly good (but deprecated) library
+choices. We chose to fork this perfectly good (but deprecated) library
 that fulfills our needs because the newer one (`fsnotify`) simply does not.
 
 For more information about how we came to the decision to fork this library,
