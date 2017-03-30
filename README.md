@@ -25,7 +25,7 @@ that fulfills our needs because the newer one (`fsnotify`) simply does not.
 
 For more information about how we came to the decision to fork this library,
 see the following issue:
-[](https://github.com/subgraph/subgraph-os-issues/issues/230)
+[Need fully functional inotify golang package](https://github.com/subgraph/subgraph-os-issues/issues/230)
 
 
 
