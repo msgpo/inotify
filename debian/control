@@ -1,0 +1,17 @@
+Source: inotify
+Section: admin
+Priority: optional
+Maintainer: Alexsandr Kibal <ak@subgraph.com>
+Build-Depends: debhelper (>= 9),
+               dh-golang,
+               golang-go
+Standards-Version: 3.9.8
+Homepage: https://www.github.com/subgraph/inotify
+
+Package: golang-subgraph-inotify-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: golang
+Description: inotify golang fork
+ Subgraph inotify golang development library
+ .
