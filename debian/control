@@ -10,7 +10,7 @@ Standards-Version: 3.9.8
 Homepage: https://www.github.com/subgraph/inotify
 
 Package: golang-subgraph-inotify-dev
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: golang
 Description: inotify golang fork
